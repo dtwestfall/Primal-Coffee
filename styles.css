@@ -1,0 +1,58 @@
+/*Nav menu styling */
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: inline-flex;
+    color: #ffffff;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #f8f8f7;
+    color: #070707;
+}
+
+
+/* Add an active class to highlight the current page within the Nav bar */
+
+.active {
+    background-color: #020202;
+    color: #ffffff;
+}
+
+.Full-Image1 {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Text styles */
+    text-align: center;
+    color: #FFF8DC;
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://cutewallpaper.org/21/4k-animal-wallpapers/HD-wallpaper-lion-animals-forest-king-predator-hd-4k-.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
